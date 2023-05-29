@@ -30,6 +30,6 @@ function countDown() {
   days.innerHTML = finalDays;
   time.innerHTML = formatoTempo(finalTime);
   minutes.innerHTML = formatoTempo(finalMinutes);
-  seconds.innerHTML = formatoTempo(finalSeconds)
+  seconds.innerHTML = formatoTempo(finalSeconds);
+  setInterval(countDown, 1000);
 };
-setInterval(countDown, 1000);
