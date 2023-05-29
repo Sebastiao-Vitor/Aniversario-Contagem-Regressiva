@@ -1,7 +1,7 @@
 # DNC School
 
 ## Escola DNC Ciclo Iniciante
-## Conhecendo o DOM
+## Brincando com DOM
 
 ![preview](./preview.png)
 
@@ -20,7 +20,7 @@ Projeto de um CountDown para seu próximo aniversario.
 - WEB
 - Function
 - JavaScript
-
+- DOM
 
 # 💛 Contato
 
@@ -29,7 +29,7 @@ sebastiaovitor18@gmail.com
 [Linkedin](https://www.linkedin.com/in/sebastião-vitor-7a2870106/)
 =======
 
-
+Feito com base nas aulas que foram apresentadas até o momento. Decidi juntar tudo o que tinha aprendido com a DOM e fazer uma projeto que poderá me informar quanto tempo faltaria para uma data especial.
 
 Ansioso para as próximas etapas.
 😁bora codar.
