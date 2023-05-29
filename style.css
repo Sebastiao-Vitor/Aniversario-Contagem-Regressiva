@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+header {
+  width: 100%;
+  height: 60rem;
+  margin-top: 6rem;
+  display: grid;
+  justify-items: center;
+}
+
+.inputs input, select {
+  border: none;
+  font-style: none  ;
+}
+
+.inputs p {
+  margin-bottom: 2rem;
+}
+
+.inputs input, select {
+  width: 10rem;
+  margin-top: 1.4rem;
+  height: 3.5rem;
+  background: #eec9c9;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  padding: 1rem;
+}
+
+#botao {
+  width: 14rem;
+  height: 4rem;
+  filter: drop-shadow(2px 4px 6px black);
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#botao:hover {
+  scale: 1.1;
+}
+
+main {
+  margin: 20rem auto 0rem;
+  height: 60rem;
+  padding: 2rem;
+}
+
+h1 {
+  font-family: 'Verdana';
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 4.3rem;
+  
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #494949;
+}
+
+h2 {
+  font-family: 'Verdana';
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 3rem;
+  margin: 5rem auto 4rem;
+  text-align: center;
+  color: #494949;
+}
+
+.time {
+  width: 80rem;
+  height: 13rem;
+  margin: 5rem auto 5rem;
+  background: #FFBABA;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.time-wrapper {
+  display: grid;
+  width: 12rem;
+  height: 10rem;
+  background: #F2EACC;
+  border-radius: 2rem;
+  align-items: center;
+  align-content: center;
+}
+
+p {
+  font-family: 'Verdana';
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2rem;
+  
+  text-align: center;
+  color: #494949;
+}
+
+@media (max-width: 850px) {
+  main {
+    height: 80rem;
+  }
+  .time {
+    flex-direction: column;
+    width: 15rem;
+    height: 50rem;
+  }
+}
